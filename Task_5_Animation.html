@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            h4{
+                text-align: center;
+            }
+         .box{
+            border: 5px solid rebeccapurple;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(red,deeppink,hotpink,pink,white,wheat,yellow,orange,red);
+            position: absolute;
+            animation-iteration-count: 2;
+         }
+        
+         .d1{
+            animation-name: d1;
+            animation-duration: 20s;
+            animation-direction:alternate;
+            
+            
+         }
+         .d2{
+            animation-name: d2;
+            animation-duration: 20s;
+            /*animation-direction:alternate;*/
+            padding: 3px;
+            
+         }
+         .d3{
+            animation-name: d3;
+            animation-duration: 20s;
+            animation-direction:alternate;
+
+            
+         }
+         .d4{
+            animation-name: d4;
+            animation-duration: 20s;
+            
+         }
+         .d5{
+            animation-name: d5;
+            animation-duration: 20s;
+            
+         }
+         .d6{
+            animation-name: d6;
+            animation-duration: 20s;
+            
+         }
+         .d7{
+            animation-name: d7;
+            animation-duration: 20s;
+            
+         }
+         .d8{
+            animation-name: d8;
+            animation-duration: 20s;
+            
+         }
+         .d9{
+            animation-name: d9;
+            animation-duration: 20s;
+            
+         }
+         .d10{
+            animation-name: d10;
+            animation-duration: 10s;
+            
+         }
+         @keyframes d1{
+            10%{
+                background: red;
+                margin-top:0;
+                margin-left:200px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            100%{
+                background: rgb(6, 63, 248);
+                margin-top:200px;
+                margin-left:200px;
+                animation-direction:alternate;
+                width: 50px;
+                height: 50px;
+            }
+        }
+        @keyframes d2{
+            10%{
+                border: 7px solid black;
+                margin-left:400px;
+                margin-top: 400px;
+                background: rgb(251, 2, 123);
+                width: 100px;
+                height: 100px;
+
+            }
+
+        }
+        @keyframes d3{
+            10%{
+                border: 5px dotted white;
+                margin: 0 0 400px 0;
+                background: cyan;
+            }
+            50%{
+                border:5px dotted black;
+                margin:200px 100px 100px 0;
+                background-image:conic-gradient(red,deeppink,hotpink,pink,white,wheat,yellow,orange,red);
+            }
+            100%{
+                border: 5px dotted white;
+                margin: 300px 0 400px 0;
+                background-image:conic-gradient(red,deeppink,hotpink,pink,white,wheat,yellow,orange,red);
+            }
+        }
+        @keyframes d4{
+                10%{
+                    margin-left: 1000px;
+                    background: grey;
+
+                }
+
+        }
+        @keyframes d5{
+                10%{
+                    margin-top: 500px;
+                    margin-left: 1000px;
+                    background: rgb(30, 3, 3);
+
+                }
+
+        }
+        @keyframes d6{
+            10%{
+                background: rgb(106, 255, 0);
+                margin-top:1000px;
+                margin-left:600px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            100%{
+                background: radial-gradient(cyan,yellow,pink);
+                margin-top:400px;
+                margin-left:400px;
+                animation-direction:alternate;
+                width: 50px;
+                height: 50px;
+            }
+        }
+        @keyframes d7{
+            10%{
+                background: rgb(180, 249, 131);
+                margin-top:1000px;
+                margin-left:600px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            50%{
+                background-image:repeating-linear-gradient(orange,white,green);
+                margin-top:300px;
+                margin-left:300px;
+                animation-direction:alternate;
+                width: 100px;
+                height: 100px;
+            }
+            100%{
+                background: rgb(26, 1, 30);
+                margin-top:100px;
+                margin-left:400px;
+               /* animation-direction:alternate;*/
+                width: 100px;
+                height: 100px;
+            }
+        }
+        @keyframes d8{
+            10%{
+                background: rgb(246, 22, 6);
+                margin-top:100px;
+                margin-left:900px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+            }
+              
+            40%{
+                background-image: linear-gradient(orange,white,green);
+                margin-top:300px;
+                margin-left:300px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            70%{
+                background:yellow;
+                margin-top:0px;
+                margin-left:400px;
+                animation-direction:alternate;
+                width: 100px;
+                height: 100px;
+            }
+            100%{
+                background-image:conic-gradient(orange,white,green);
+                margin-top:100px;
+                margin-left:400px;
+               /* animation-direction:alternate;*/
+                width: 100px;
+                height: 100px;
+            }
+        }
+            
+        @keyframes d9{
+            10%{
+                background: rgb(34, 32, 32);
+                margin-top:100px;
+                margin-left:900px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+            }
+              
+            40%{
+                background-image: linear-gradient(blue,cyan,white,pink,hotpink,deeppink,red);
+                margin-top:200px;
+                margin-left:400px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            70%{
+                background:blueviolet;
+                margin-top:100px;
+                margin-left:300px;
+                animation-direction:alternate;
+                width: 100px;
+                height: 100px;
+            }
+            100%{
+                background-image:conic-gradient(red,white,black,white,blue);
+                margin-top:100px;
+                margin-left:400px;
+               /* animation-direction:alternate;*/
+                width: 100px;
+                height: 100px;
+            }
+        }
+        @keyframes d10{
+            10%{
+                background: rgb(122, 118, 117);
+                margin-top:200px;
+                margin-left:800px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+            }
+              
+            40%{
+                background-image: linear-gradient(blue,red,rgb(5, 234, 89),rgb(246, 15, 227),rgb(26, 13, 19),rgb(7, 198, 232),red);
+                margin-top:100px;
+                margin-left:700px;
+                animation-direction:alternate;
+                animation-delay: 1s;
+                animation-fill-mode: forwards;
+            }
+            70%{
+                background:rgb(194, 156, 228);
+                margin-top:200px;
+                margin-left:600px;
+                animation-direction:alternate;
+                width: 100px;
+                height: 100px;
+            }
+            100%{
+                background-image:conic-gradient(rgb(255, 154, 154),rgb(212, 248, 10),rgb(232, 11, 209),white,rgb(234, 105, 12));
+                margin-top:300px;
+                margin-left:500px;
+               /* animation-direction:alternate;*/
+                width: 100px;
+                height: 100px;
+            }
+        }
+            
+            
+        </style>
+    </head>
+    <body>
+        <div class=" box d1"> <h4>Shiv</h4></div>
+        <div class=" box d2"><h4>Shiv</h4> </div>
+        <div class=" box d3"> <h4>Gauri</h4></div>
+        <div class=" box d4"> <h4>Gauri</h4></div>
+        <div class=" box d5"> <h4>Shiv</h4></div>
+        <div class=" box d6"><h4>Shiv</h4> </div>
+        <div class=" box d7"><h4>Gauri</h4> </div>
+        <div class=" box d8"><h4>Shiv</h4></div>
+        <div class=" box d9"><h4>Radha</h4> </div>
+        <div class=" box d10"><h4>Sanjana</h4> </div>
+    </body>
+</html>
